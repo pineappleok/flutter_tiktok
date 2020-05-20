@@ -1,36 +1,6 @@
 import 'package:flutter_tiktok/utils/style.dart';
 import 'package:flutter/material.dart';
 
-// class StandardTextStyle {
-//   static const TextStyle big = TextStyle(
-//     // fontFamily: 'MyraidPro',
-//     fontWeight: FontWeight.w600,
-//     fontSize: SysSize.big,
-//     color: ColorPlate.darkGray,
-//     inherit: true,
-//   );
-//   static const TextStyle normalW = TextStyle(
-//     // fontFamily: 'MyraidPro',
-//     fontWeight: FontWeight.w600,
-//     fontSize: SysSize.normal,
-//     color: ColorPlate.darkGray,
-//     inherit: true,
-//   );
-//   static const TextStyle normal = TextStyle(
-//     // fontFamily: 'MyraidPro',
-//     fontWeight: FontWeight.normal,
-//     fontSize: SysSize.normal,
-//     color: ColorPlate.darkGray,
-//     inherit: true,
-//   );
-//   static const TextStyle small = TextStyle(
-//     // fontFamily: 'MyraidPro',
-//     fontWeight: FontWeight.normal,
-//     fontSize: SysSize.small,
-//     color: ColorPlate.gray,
-//     inherit: true,
-//   );
-// }
 
 class AdMucisText extends StatelessWidget {
   final String text;

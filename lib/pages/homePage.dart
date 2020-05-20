@@ -3,7 +3,6 @@ import 'package:flutter_tiktok/pages/cameraPage.dart';
 import 'package:flutter_tiktok/pages/followPage.dart';
 import 'package:flutter_tiktok/pages/searchPage.dart';
 import 'package:flutter_tiktok/pages/userPage.dart';
-import 'package:flutter_tiktok/views/freeGiftDialog.dart';
 import 'package:flutter_tiktok/views/tikTokCommentBottomSheet.dart';
 import 'package:flutter_tiktok/views/tikTokHeader.dart';
 import 'package:flutter_tiktok/views/tikTokScaffold.dart';
