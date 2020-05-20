@@ -1,16 +1,11 @@
 # flutter_tiktok
 
-A new Flutter project.
+仿写抖音的flutter app。主要实现了看视频功能
 
-## Getting Started
+# 实现功能
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 上下刷视频，视频会自动加载封面
+- 左右滑动去搜索与个人中心
+- 双击冒爱心点赞
+- 看评论
+- 切换底部Tabbar

@@ -25,17 +25,11 @@ dependencies:
     sdk: flutter
   # 加载动画库
   flutter_spinkit: ^4.1.2
-  # 读取写入文件
-  path_provider: ^1.4.5
-  # 左滑删除组件
-  left_scroll_actions: ^1.4.4
   # Bilibili开源的视频播放组件
-  # flutter_ijkplayer: ^0.3.5+1
   fijkplayer: ^0.8.3
-  # 轮播图
-  flutter_swiper: ^1.1.6
-
+  # 基础的点击
   tapped: any
+  # map取值
   safemap: any
 
   # The following adds the Cupertino Icons font to your application.
