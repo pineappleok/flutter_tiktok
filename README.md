@@ -12,7 +12,7 @@
 
 # 应用截图
 
-![截图1](flutter_01.png)
-![截图2](flutter_02.png)
-![截图3](flutter_03.png)
-![截图4](flutter_04.png)
+![截图1](./flutter_01.png)
+![截图2](./flutter_02.png)
+![截图3](./flutter_03.png)
+![截图4](./flutter_04.png)
