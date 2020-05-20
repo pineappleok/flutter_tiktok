@@ -9,3 +9,10 @@
 - 双击冒爱心点赞
 - 看评论
 - 切换底部Tabbar
+
+# 应用截图
+
+![截图1](flutter_01.png)
+![截图2](flutter_02.png)
+![截图3](flutter_03.png)
+![截图4](flutter_04.png)
