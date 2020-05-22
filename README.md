@@ -46,7 +46,7 @@
 │   ├── todoPage.dart # 略
 │   ├── userDetailPage.dart # 略
 │   ├── userPage.dart # 略
-│   └── walletPage.d略
+│   └── walletPage.d # 略
 ├── style
 │   ├── style.dart # 全局文字大小与颜色
 │   └── text.dart # 主要的几个文字样式
