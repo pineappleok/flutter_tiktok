@@ -13,3 +13,13 @@
 # 应用截图
 
 ![截图1](./screenshot.png)
+
+# 致谢
+
+左右滑动手势代码来自项目 https://github.com/ditclear/tiktok_gestures 作者的封装，在此致谢。
+
+# 请我喝咖啡
+
+我相信本项目一定能在商业项目上帮助到您，如果您从本项目中获益，不妨请作者我喝杯咖啡
+
+![请我喝咖啡](./screenshot.png)
