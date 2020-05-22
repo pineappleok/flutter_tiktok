@@ -23,7 +23,7 @@
   flutter_spinkit: ^4.1.2
   # Bilibili开源的视频播放组件
   fijkplayer: ^0.8.3
-  # 基础的点击效果
+  # 基础的透明动画点击效果
   tapped: any
   # map安全取值
   safemap: any
