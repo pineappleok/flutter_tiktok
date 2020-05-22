@@ -1,7 +1,4 @@
 import 'dart:io';
-import 'dart:math';
-
-import 'package:flutter_tiktok/views/tikTokVideoPlayer.dart';
 
 Socket socket;
 const mockImage =
@@ -15,11 +12,6 @@ const mV3 =
 const mV4 =
     'http://baishan.oversketch.com/2020/05/14/59e0c1dd40bd4f41804f33814ad4b67a.MP4';
 
-//
-// const mV2 =
-//     'http://baishan.oversketch.com/2019/12/28/c9f79b2a40534874805af42813fbc7cf.mp4';
-// const mV3 =
-//     'http://baishan.oversketch.com/2019/12/28/4ceadf2740d86d8f80aa0d082cfac31f.mp4';
 
 class UserVideo {
   final String url;

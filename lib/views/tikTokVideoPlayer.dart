@@ -1,10 +1,6 @@
-import 'dart:async';
 
 import 'package:flutter_tiktok/mock/video.dart';
-import 'package:flutter_tiktok/utils/style.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:safemap/safemap.dart';
 import 'package:fijkplayer/fijkplayer.dart';
 
 // class VideoInfo {
@@ -76,8 +72,8 @@ class VideoListController {
   bool get isPlaying => currentPlayer.state == FijkState.started;
 
   /// 销毁全部
-  dispose() {
-    // TODO:销毁全部
+  void dispose() {
+    // 销毁全部
     for (var player in playerList) {
       player.dispose();
     }

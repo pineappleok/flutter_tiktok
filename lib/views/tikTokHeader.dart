@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:safemap/safemap.dart';
 import 'package:tapped/tapped.dart';
 
-import 'selectTextButton.dart';
+import 'selectText.dart';
 
 class TikTokHeader extends StatefulWidget {
   final Function onSearch;

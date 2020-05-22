@@ -1,9 +1,7 @@
-import 'package:flutter_tiktok/utils/style.dart';
-import 'package:flutter_tiktok/views/backButton.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/tilTokAppBar.dart';
 import 'package:flutter_tiktok/views/userMsgRow.dart';
 import 'package:flutter/material.dart';
-import 'package:tapped/tapped.dart';
 
 class MsgDetailListPage extends StatefulWidget {
   final String title;

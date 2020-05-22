@@ -1,7 +1,7 @@
-import 'dart:math';
+
 import 'package:flutter_tiktok/pages/userDetailPage.dart';
 import 'package:flutter_tiktok/pages/walletPage.dart';
-import 'package:flutter_tiktok/utils/style.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/topToolRow.dart';
 import 'package:flutter/material.dart';
 import 'package:tapped/tapped.dart';
@@ -436,31 +436,6 @@ class _SmallVideo extends StatelessWidget {
   }
 }
 
-class _TopBottomBorderBox extends StatelessWidget {
-  final Widget child;
-  const _TopBottomBorderBox({
-    Key key,
-    this.child,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: ColorPlate.back1,
-      padding: EdgeInsets.symmetric(horizontal: 12),
-      child: Container(
-        decoration: BoxDecoration(
-          border: Border(
-            top: BorderSide(color: Color(0xff3A3A3D)),
-            bottom: BorderSide(color: Color(0xff3A3A3D)),
-          ),
-        ),
-        padding: EdgeInsets.symmetric(horizontal: 12),
-        child: child,
-      ),
-    );
-  }
-}
 
 class _PointSelectTextButton extends StatelessWidget {
   final bool isSelect;

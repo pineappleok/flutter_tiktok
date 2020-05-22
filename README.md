@@ -14,6 +14,48 @@
 
 ![截图1](./screenshot.png)
 
+# 文件结构
+
+```bash
+./lib
+├── main.dart
+├── mock
+│   └── video.dart
+├── other
+│   └── bottomSheet.dart
+├── pages
+│   ├── cameraPage.dart
+│   ├── followPage.dart
+│   ├── homePage.dart
+│   ├── msgDetailListPage.dart
+│   ├── msgPage.dart
+│   ├── searchPage.dart
+│   ├── todoPage.dart
+│   ├── userDetailPage.dart
+│   ├── userPage.dart
+│   └── walletPage.dart
+├── r.dart # 资源文件
+├── style
+│   ├── style.dart
+│   └── text.dart
+└── views
+    ├── backButton.dart
+    ├── loadingButton.dart
+    ├── selectText.dart
+    ├── tikTokCommentBottomSheet.dart
+    ├── tikTokHeader.dart
+    ├── tikTokScaffold.dart
+    ├── tikTokVideo.dart
+    ├── tikTokVideoButtonColumn.dart
+    ├── tikTokVideoGesture.dart
+    ├── tikTokVideoPlayer.dart
+    ├── tiktokTabBar.dart
+    ├── tilTokAppBar.dart
+    ├── topToolRow.dart
+    ├── transparent_page.dart
+    └── userMsgRow.dart
+```
+
 # 致谢
 
 左右滑动手势代码来自项目 https://github.com/ditclear/tiktok_gestures 作者的封装，在此致谢。

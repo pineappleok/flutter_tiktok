@@ -1,8 +1,7 @@
-import 'package:flutter_tiktok/utils/style.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/tikTokVideoGesture.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:tapped/tapped.dart';
 
 ///
 /// TikTok风格的一个视频页组件，覆盖在video上，提供以下功能：

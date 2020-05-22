@@ -1,5 +1,5 @@
 import 'package:flutter_tiktok/pages/homePage.dart';
-import 'package:flutter_tiktok/utils/style.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

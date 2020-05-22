@@ -1,4 +1,4 @@
-import 'package:flutter_tiktok/utils/style.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/tikTokCommentBottomSheet.dart';
 import 'package:flutter_tiktok/views/tikTokVideo.dart';
 import 'package:flutter_tiktok/views/tilTokAppBar.dart';

@@ -1,6 +1,5 @@
-import 'package:flutter_tiktok/r.dart';
 import 'package:flutter_tiktok/style/text.dart';
-import 'package:flutter_tiktok/utils/style.dart';
+import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/loadingButton.dart';
 import 'package:flutter_tiktok/views/tilTokAppBar.dart';
 import 'package:flutter/material.dart';
@@ -29,11 +28,10 @@ class _NewWalletPageState extends State<NewWalletPage> {
                     fit: BoxFit.cover,
                     child: Stack(
                       children: <Widget>[
-                        Image.asset(
-                          R.assetsWalletHead,
+                        Container(
                           height: 190,
                           width: 375,
-                          fit: BoxFit.cover,
+                          color: ColorPlate.orange,
                         ),
                         Container(
                           width: 375,

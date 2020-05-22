@@ -1,8 +1,7 @@
 
-import 'package:flutter_tiktok/utils/style.dart';
-import 'package:flutter_tiktok/views/selectTextButton.dart';
+import 'package:flutter_tiktok/style/style.dart';
+import 'package:flutter_tiktok/views/selectText.dart';
 import 'package:flutter/material.dart';
-import 'package:tapped/tapped.dart';
 
 enum TikTokPageTag {
   home,
