@@ -14,46 +14,57 @@
 
 ![截图1](./screenshot.png)
 
-# 文件结构
+# 项目结构
 
+
+依赖：
+```yaml
+  # 加载动画库(好像改版之后就没用到了)
+  flutter_spinkit: ^4.1.2
+  # Bilibili开源的视频播放组件
+  fijkplayer: ^0.8.3
+  # 基础的点击效果
+  tapped: any
+  # map安全取值
+  safemap: any
+```
+主要文件：
 ```bash
 ./lib
 ├── main.dart
 ├── mock
-│   └── video.dart
+│   └── video.dart # 假数据
 ├── other
-│   └── bottomSheet.dart
+│   └── bottomSheet.dart # 修改了系统BottomSheet的高度
 ├── pages
-│   ├── cameraPage.dart
-│   ├── followPage.dart
-│   ├── homePage.dart
-│   ├── msgDetailListPage.dart
-│   ├── msgPage.dart
-│   ├── searchPage.dart
-│   ├── todoPage.dart
-│   ├── userDetailPage.dart
-│   ├── userPage.dart
-│   └── walletPage.dart
-├── r.dart # 资源文件
+│   ├── cameraPage.dart # 拍摄页（没有实际功能）
+│   ├── followPage.dart  # 略
+│   ├── homePage.dart # 主页面，包含tikTokScaffold的实际应用功能
+│   ├── msgDetailListPage.dart # 略
+│   ├── msgPage.dart # 略
+│   ├── searchPage.dart # 略
+│   ├── todoPage.dart # 略
+│   ├── userDetailPage.dart # 略
+│   ├── userPage.dart # 略
+│   └── walletPage.d略
 ├── style
-│   ├── style.dart
-│   └── text.dart
+│   ├── style.dart # 全局文字大小与颜色
+│   └── text.dart # 主要的几个文字样式
 └── views
-    ├── backButton.dart
-    ├── loadingButton.dart
-    ├── selectText.dart
-    ├── tikTokCommentBottomSheet.dart
-    ├── tikTokHeader.dart
-    ├── tikTokScaffold.dart
-    ├── tikTokVideo.dart
-    ├── tikTokVideoButtonColumn.dart
-    ├── tikTokVideoGesture.dart
-    ├── tikTokVideoPlayer.dart
-    ├── tiktokTabBar.dart
-    ├── tilTokAppBar.dart
-    ├── topToolRow.dart
-    ├── transparent_page.dart
-    └── userMsgRow.dart
+    ├── backButton.dart # iOS形状的返回按钮组件
+    ├── loadingButton.dart # 可以设置为载入样式的按钮组件
+    ├── selectText.dart # 可设置为“选中”或者“未选中”样式的文字
+    ├── tikTokCommentBottomSheet.dart # 仿Tiktok评论样式
+    ├── tikTokHeader.dart # 仿Tiktok顶部切换组件
+    ├── tikTokScaffold.dart # 仿Tiktok核心脚手架，封装了手势与切换等功能，本身不包含UI内容
+    ├── tikTokVideo.dart # 仿Tiktok的视频UI样式封装，不包含视频播放
+    ├── tikTokVideoButtonColumn.dart # 仿Tiktok视频右侧的头像与点赞等按钮列的组件
+    ├── tikTokVideoGesture.dart # 仿Tiktok的双击点赞效果
+    ├── tikTokVideoPlayer.dart # 视频播放页面，带有控制滑动的VideoListController类
+    ├── tiktokTabBar.dart # 仿Tiktok的底部Tabbar组件
+    ├── tilTokAppBar.dart # 仿Tiktok的Appbar组件
+    ├── topToolRow.dart # 用户页面的顶部状态，在tab切换到user页面时隐藏返回按钮
+    └── userMsgRow.dart # 一条用户信息的样式组件
 ```
 
 # 致谢
