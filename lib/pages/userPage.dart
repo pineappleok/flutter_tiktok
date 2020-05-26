@@ -6,41 +6,6 @@ import 'package:flutter_tiktok/views/topToolRow.dart';
 import 'package:flutter/material.dart';
 import 'package:tapped/tapped.dart';
 
-/// 内部包含两种用户页面，用于切换用户
-class UserPageSwitchPage extends StatefulWidget {
-  final bool canPop;
-  final bool isSelfPage;
-  final Function onPop;
-
-  const UserPageSwitchPage({
-    Key key,
-    this.canPop,
-    this.isSelfPage,
-    this.onPop,
-  }) : super(key: key);
-  @override
-  _UserPageSwitchPageState createState() => _UserPageSwitchPageState();
-}
-
-class _UserPageSwitchPageState extends State<UserPageSwitchPage> {
-  bool isCompany = false;
-
-  @override
-  void initState() {
-    isCompany = !widget.isSelfPage;
-    super.initState();
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return UserPage(
-      canPop: widget.canPop,
-      onPop: widget.onPop,
-      isSelfPage: widget.isSelfPage,
-      onSwitch: () => setState(() => isCompany = true),
-    );
-  }
-}
 
 class UserPage extends StatefulWidget {
   final bool canPop;

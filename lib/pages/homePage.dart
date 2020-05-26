@@ -88,7 +88,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
         currentPage = MsgPage();
         break;
       case TikTokPageTag.me:
-        currentPage = UserPageSwitchPage(isSelfPage: true);
+        currentPage = UserPage(isSelfPage: true);
         break;
     }
     double a = MediaQuery.of(context).size.aspectRatio;
@@ -122,7 +122,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
       },
     );
 
-    var userPage = UserPageSwitchPage(
+    var userPage = UserPage(
       isSelfPage: false,
       canPop: true,
       onPop: () {

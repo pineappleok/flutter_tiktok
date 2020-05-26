@@ -75,7 +75,7 @@ class _TikTokHeaderState extends State<TikTokHeader> {
                 padding: EdgeInsets.all(4),
                 alignment: Alignment.centerRight,
                 child: Icon(
-                  Icons.monetization_on,
+                  Icons.tv,
                   color: Colors.white.withOpacity(0.66),
                 ),
               ),
