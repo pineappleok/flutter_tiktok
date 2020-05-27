@@ -1,11 +1,8 @@
-
 import 'package:flutter_tiktok/pages/userDetailPage.dart';
-import 'package:flutter_tiktok/pages/walletPage.dart';
 import 'package:flutter_tiktok/style/style.dart';
 import 'package:flutter_tiktok/views/topToolRow.dart';
 import 'package:flutter/material.dart';
 import 'package:tapped/tapped.dart';
-
 
 class UserPage extends StatefulWidget {
   final bool canPop;
@@ -38,15 +35,6 @@ class _UserPageState extends State<UserPage> {
             child: _UserRightButton(
               title: widget.isSelfPage ? '钱包' : '关注',
             ),
-            onTap: () {
-              if (widget.isSelfPage) {
-                Navigator.of(context).push(
-                  MaterialPageRoute(
-                    builder: (context) => NewWalletPage(),
-                  ),
-                );
-              }
-            },
           ),
         ],
       ),
@@ -73,7 +61,8 @@ class _UserPageState extends State<UserPage> {
           ),
           child: ClipOval(
             child: Image.network(
-              "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif",fit: BoxFit.cover,
+              "https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif",
+              fit: BoxFit.cover,
             ),
           ),
         ),
@@ -400,7 +389,6 @@ class _SmallVideo extends StatelessWidget {
     );
   }
 }
-
 
 class _PointSelectTextButton extends StatelessWidget {
   final bool isSelect;
